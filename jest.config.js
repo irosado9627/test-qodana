@@ -4,6 +4,6 @@ module.exports = {
         '\\.[tj]s$': 'babel-jest',
     },
     coverageDirectory: '.qodana/code-coverage/',
-    coverageReporters: ['lcovonly'],
+    coverageReporters: ['lcovonly', 'json'],
     collectCoverage: true,
 };
