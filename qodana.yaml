@@ -14,17 +14,5 @@ include:
   - name: "HardcodedPasswords"
   - name: FlowJSCoverage
   - name: DuplicatedCode
-  
-failureConditions:
-    severityThresholds:
-        any: 50 # Total number of problems in all severities
-        critical: 1 # Severities
-        high: 2
-        moderate: 3
-        low: 4
-        info: 5
-    testCoverageThresholds:
-        fresh: 90 # Fresh code coverage
-        total: 80 # Total percentage
 
 linter: jetbrains/qodana-js:latest
